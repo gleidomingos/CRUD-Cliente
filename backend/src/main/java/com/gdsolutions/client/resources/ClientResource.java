@@ -23,7 +23,7 @@ import com.gdsolutions.client.services.ClientService;
 
 
 @Controller
-@RequestMapping(value = "/client")
+@RequestMapping(value = "/clients")
 public class ClientResource {
 	@Autowired
 	private ClientService service;
